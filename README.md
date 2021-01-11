@@ -11,16 +11,16 @@
   - 두번째 시도 : 하나의 새로운 카테고리가 들어올때마다 몇개의 경우의 수가 증가하는지를 파악한 뒤 문자열이 아닌 숫자계산으로만 해결 (해결완료) 
 ``` python
 def solution(clothes):
-    d = {}
-    for v in clothes:
-        if not v[1] in d:
-            d[v[1]] = 1
+    dic = {}
+    for _ , cate in clothes:
+        if not cate in dic:
+            dic[cate] = 1
         else:
-            d[v[1]] += 1
-    ans = 1
-    for i in d.keys():
-        ans *= d[i] + 1
-    return ans - 1
+            dic[cate] += 1
+    result = 1
+    for i in dic.keys():
+        result *= dic[i] + 1
+    return result - 1
 ````
   - 피드백 
     1. 문자열 문제라고 무조건 문자로만 사용하지 않기 -> 간편화 가능성을 항상 염두 
