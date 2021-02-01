@@ -41,6 +41,6 @@
     2. 딱히 할만한 거래가 존재하지 않는다면 profit을 0으로 반환한다는 조건을 제대로 반영하지 않았다. 
       - profit list를 [0]으로 초기화해서 해결 
     3. min이 바뀌게 되면 더 이상 max가 쓰일 수 없다는 사실을 간과했다.
-  - _Runtime: __896 ms, faster than 25.08%__ of Python online submissions for Best Time to Buy and Sell Stock._
+  - _Runtime: __896 ms, faster than 25.08%__ of Python online submissions for Best Time to Buy and Sell Stock._<br/>
     _Memory Usage: __22.4 MB, less than 34.63%__ of Python online submissions for Best Time to Buy and Sell Stock._
   - [Sell Stock 코드(Sell_Stock.py)](https://github.com/hsu-201458085/Algorithm/blob/main/code/Sell_Stock.py)
