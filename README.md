@@ -74,12 +74,12 @@
 
 ## 참고목록
 ### 책 
-프로그래밍 대회에서 배우는 알고리즘 문제해결전략 - 구종만, 인사이트
-파이썬 알고리즘 인터뷰 - 박상길, 책만
+- 프로그래밍 대회에서 배우는 알고리즘 문제해결전략 - 구종만, 인사이트
+- 파이썬 알고리즘 인터뷰 - 박상길, 책만
 
 ### 코딩테스트 플랫폼
-[leetcode](https://leetcode.com/)
-[프로그래머스](https://programmers.co.kr/)
+- [leetcode](https://leetcode.com/)
+- [프로그래머스](https://programmers.co.kr/)
 
 ### 그 외 
-[동빈나 유튜브](https://www.youtube.com/channel/UChflhu32f5EUHlY7_SetNWw)
+- [동빈나 유튜브](https://www.youtube.com/channel/UChflhu32f5EUHlY7_SetNWw)
