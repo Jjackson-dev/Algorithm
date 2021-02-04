@@ -11,7 +11,7 @@
 
  - [Hash table](#hash-table)
  - [Array](#array)
- - [BFS(Breath-First-Search)](#BFS(Breath-First-Search))
+ - [BFS(Breath-First-Search)](#BFS)
  
  ## Technic
 
@@ -56,7 +56,7 @@
   - [Sell Stock 코드(Sell_Stock.py)](https://github.com/hsu-201458085/Algorithm/blob/main/code/Sell_Stock.py)
   
   
-  ## BFS(Breath-First-Search)
+  ## BFS
   ### [너비우선탐색] 동빈나님 유튜브 예제 : 미로탈출 최소 거리?
    - N x M 모양의 미로에서 시작은 (1,1) 탈출구는 (n,m)으로 시작부터 탈출구까지의 최단거리를 찾는 문제이다. 
    - 미로의 각 지역마다 1 혹은 0 숫자가 지정되어있는데 1이 지나갈 수 있는 위치 0은 지나갈 수 없는 위치이다. 
