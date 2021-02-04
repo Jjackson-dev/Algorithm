@@ -1,7 +1,9 @@
 # Algorithm
 
 알고리즘을 공부하며 문제 해결을 위한 핵심아이디어나 실패했던 삽질들을 저장해두기 위한 저장소입니다.
+
 굳이 하나의 플렛폼을 이용하지 않고 여러 플랫폼이나 책 등의 예시문제를 풀면서 작성했습니다. 
+
 [참고 목록](#참고목록)
 
 
@@ -9,6 +11,7 @@
 
  - [Hash table](#hash-table)
  - [Array](#array)
+ - [BFS(Breath-First-Search)](#BFS(Breath-First-Search))
  
  ## Technic
 
@@ -53,7 +56,7 @@
   - [Sell Stock 코드(Sell_Stock.py)](https://github.com/hsu-201458085/Algorithm/blob/main/code/Sell_Stock.py)
   
   
-  #BFS(Breath-First-Search)
+  ## BFS(Breath-First-Search)
   ### [너비우선탐색] 동빈나님 유튜브 예제 : 미로탈출 최소 거리?
    - N x M 모양의 미로에서 시작은 (1,1) 탈출구는 (n,m)으로 시작부터 탈출구까지의 최단거리를 찾는 문제이다. 
    - 미로의 각 지역마다 1 혹은 0 숫자가 지정되어있는데 1이 지나갈 수 있는 위치 0은 지나갈 수 없는 위치이다. 
@@ -63,16 +66,20 @@
       처음 접해보았다. 시물레이션 문제처럼 상하좌우로 움직이는 것을 구현하는게 핵심인 것 같다. 
    -[미로탈출 코드(Escape_the_Maze.py)](https://github.com/hsu-201458085/Algorithm/blob/main/code/Escape_the_Maze.py)
 
+<br/>
 
-#참고목록
-## 책 
+---
+
+<br/>
+
+## 참고목록
+### 책 
 프로그래밍 대회에서 배우는 알고리즘 문제해결전략 - 구종만, 인사이트
 파이썬 알고리즘 인터뷰 - 박상길, 책만
 
-
-## 코딩테스트 플랫폼
+### 코딩테스트 플랫폼
 [leetcode](https://leetcode.com/)
 [프로그래머스](https://programmers.co.kr/)
 
-## 그 외 
+### 그 외 
 [동빈나 유튜브](https://www.youtube.com/channel/UChflhu32f5EUHlY7_SetNWw)
