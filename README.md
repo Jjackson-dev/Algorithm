@@ -13,8 +13,8 @@
  - [Array](#array)
  - [BFS(Breath-First-Search)](#BFS)
  
- ## Technic
 
+---
 ## Hash table
 ### [해시] 프로그래머스 : 위장 (Level 2) 
   - ('옷이름','카테고리')의 문자열 n개를 받아서 카테고리가 겹치지 않는 모든 경우의 수를 구하는 문제 
