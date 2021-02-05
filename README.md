@@ -11,6 +11,7 @@
 
  - [Hash table](#hash-table)
  - [Array](#array)
+ - [Linked List](#linked-list)
  - [BFS(Breath-First-Search)](#BFS)
  
 
@@ -55,6 +56,29 @@
     _Memory Usage: __22.4 MB, less than 34.63%__ of Python online submissions for Best Time to Buy and Sell Stock._
   - [Sell Stock 코드(Sell_Stock.py)](https://github.com/hsu-201458085/Algorithm/blob/main/code/Sell_Stock.py)
   
+  ## Linked List
+  ### [연결리스트] Leetcode : 234. Palindrome Linked List (Easy)
+   - Given a singly linked list, determine if it is a palindrome.
+   - 입력이 연결 리스트 형태로 주어질 때 팬린드롬여부를 확인한다. 
+   - singly-linked list의 형태
+   ```python
+      # Definition for singly-linked list.
+   class ListNode(object):
+        def __init__(self, val=0, next=None):
+           self.val = val
+           self.next = next
+   ```
+   - 해결방법 1 : listnode.next가 0이 될 때까지 순회하며 List형태로 추가 후 <br>
+                 list.pop()과 list.pop(0)를 하나씩 비교 (pop(0)의 시간복잡도는 O(N))
+                 
+   - 해결방법 2 : list가 아닌 collections.deque()에 append로 추가해준 뒤 <br>
+                 deque.pop()과 deque.popleft()를 비교 (popleft()의 시간복잡도는 O(1))
+                 
+   - 해결방법 3 : 런너를 이용한 방법 -> fast가 2칸씩 slow는 한칸씩이동하며 slow와 반대인 rev생성<br>
+                 fast가 끝에 도달하면 slow는 중간지점이므로 rev와 하나씩 비교 
+   - [연결리스트팬린드롬 코드(linked_list_palindrome.py)](https://github.com/hsu-201458085/Algorithm/blob/main/code/linked_list_palindrome.py)
+   - [런너방식 설명](https://github.com/hsu-201458085/Python_Study)
+
   
   ## BFS
   ### [너비우선탐색] 동빈나님 유튜브 예제 : 미로탈출 최소 거리?
