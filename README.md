@@ -62,9 +62,9 @@
    - 입력이 연결 리스트 형태로 주어질 때 팬린드롬여부를 확인한다. 
    - singly-linked list의 형태
    ```python
-      # Definition for singly-linked list.
+   # Definition for singly-linked list.
    class ListNode(object):
-        def __init__(self, val=0, next=None):
+       def __init__(self, val=0, next=None):
            self.val = val
            self.next = next
    ```
