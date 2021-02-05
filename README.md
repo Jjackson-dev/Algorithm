@@ -80,6 +80,18 @@
    - [연결리스트팬린드롬 코드(linked_list_palindrome.py)](https://github.com/hsu-201458085/Algorithm/blob/main/code/linked_list_palindrome.py)
    - [런너방식 설명](https://github.com/hsu-201458085/Python_Study)
 
+ ### [연결리스트] Leetcode : 21. Merge Two Sorted Lists (Easy)
+ Merge two sorted linked lists and return it as a sorted list. The list should be made by splicing together the nodes of the first two lists.
+   - Easy 난이도임에도 불구하고 해결하지 못한걸 보니 연결리스트 문제가 취약하다. 
+   - 해결하지 못했다. -> 시도 : 연결리스트를 리스트로 바꾼 뒤 +와 sorted로 날먹하려던걸 실패 
+   - 해결방법 : 재귀로 비교해가면서 넣기 
+   - [MergeSortedList 코드 (merge_sorted_list.py)](https://github.com/hsu-201458085/Algorithm/blob/main/code/merge_sorted_list.py)
+   사실 내가 해결하지 못했던 방법이 왜 안되는지 궁금해서 한시간 넘게 디버깅해봤는데도 일단 답이 안나왔다.
+   - 시도해볼 것 : 
+      1. 이해하기 어려웠던 재귀 방식 풀이 7일 후 다시 해보기 (  )
+      2. 내가 원래 했던 방법을 다시 시도해보고 성공한다면 성능 분석/비교해보기 (  )
+    
+   
   
   ## BFS
   ### [너비우선탐색] 동빈나님 유튜브 예제 : 미로탈출 최소 거리?
