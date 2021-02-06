@@ -79,6 +79,7 @@
                  fast가 끝에 도달하면 slow는 중간지점이므로 rev와 하나씩 비교 
    - [연결리스트팬린드롬 코드(linked_list_palindrome.py)](https://github.com/hsu-201458085/Algorithm/blob/main/code/linked_list_palindrome.py)
    - [런너방식 설명](https://github.com/hsu-201458085/Python_Study)
+   - [런너방식 코드(linked_lisr_palindrome_runner.py)](https://github.com/hsu-201458085/Algorithm/blob/main/code/linked_list_palindrome_runner.py)
 
  ### [연결리스트] Leetcode : 21. Merge Two Sorted Lists (Easy)
  Merge two sorted linked lists and return it as a sorted list. The list should be made by splicing together the nodes of the first two lists.
