@@ -13,7 +13,9 @@
  - [Hash table](#hash-table)
  - [Array](#array)
  - [Linked List](#linked-list)
+ - [Sorting](#sorting)
  - [BFS(Breath-First-Search)](#BFS)
+ 
  
 ---
 
@@ -93,6 +95,14 @@
       2. 내가 원래 했던 방법을 다시 시도해보고 성공한다면 성능 분석/비교해보기 (  )
     
    
+  ## Sorting
+  ### [정렬] Leetcode : 148. Sort List
+  - 입력이 Linked-List로 오기 때문에 Sorted보다는 병합정렬로 처리한다. 
+  - Linked List의 경우 index를 내 마음대로 설정하기 어렵기 때문에 Quick Sorting은 비효율적이다. 
+  - 병합 정렬에서 partition을 위해 중간지점을 알아야하지만 Linked_list이므로 Runner 방식을 활용한다. 
+  - 배열을 받으면 순서대로 Linked_list 입력값을 만드는 init_linked_list()함수도 포함
+  - 코드 자체내에서 테스트를 해보고 있음 
+  - [Sort list 코드(Sort_list.py)](https://github.com/hsu-201458085/Algorithm/blob/main/code/Sort_list.py)
   
   ## BFS
   ### [너비우선탐색] 동빈나님 유튜브 예제 : 미로탈출 최소 거리?
