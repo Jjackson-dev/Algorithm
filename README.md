@@ -103,6 +103,8 @@
   - 다음 node는 next로 지정해 재귀적으로 reverse(next, node)를 반복하면 node가 새로운 prev가 되어 뒤집어진다. 
   - 기저조건은 node가 빌 때까지 이다. (if not node)
 - [재귀를 이용한코드(Reverse_recursion.py)](https://github.com/hsu-201458085/Algorithm/blob/main/code/Reverse_recursion.py)
+- 코드는 재귀가 더 간편해 보이지만 시간복잡도 공간복잡도는 반복이 훨씬 좋은 효율을 보였다. 반복은 Leetcode기준 전부 90%보다 상위인 높은 효율이였지만
+  재귀에서는 시간복잡도는 70% 정도 더 앞서있었고 공간복잡도는 5% 보다 앞서서 반복보다 안좋은 효율을 보였다.
     
    
   ## Sorting
