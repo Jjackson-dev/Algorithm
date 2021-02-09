@@ -93,6 +93,16 @@
    - 시도해볼 것 : 
       1. 이해하기 어려웠던 재귀 방식 풀이 7일 후 다시 해보기 (  )
       2. 내가 원래 했던 방법을 다시 시도해보고 성공한다면 성능 분석/비교해보기 (  )
+      
+ ### [연결리스트] Leetcode : Reverse Linked List (Easy)
+- Reverse a singly linked list.
+- 반복은 한번에 풀 수 있었지만 재귀는 바로는 못 풀어서 책을 참고했다.
+- [반복을 이용한 코드(Reverse_iteration.py)](https://github.com/hsu-201458085/Algorithm/blob/main/code/Reverse_iteration.py)
+- 재귀의 방식은
+  - node.next = prev에 맞추어 먼저 나온게 맨 뒤로 가도록한다. (prev의 기본값은 None)
+  - 다음 node는 next로 지정해 재귀적으로 reverse(next, node)를 반복하면 node가 새로운 prev가 되어 뒤집어진다. 
+  - 기저조건은 node가 빌 때까지 이다. (if not node)
+- [재귀를 이용한코드(Reverse_recursion.py)](https://github.com/hsu-201458085/Algorithm/blob/main/code/Reverse_recursion.py)
     
    
   ## Sorting
