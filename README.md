@@ -90,10 +90,10 @@
    - 해결방법 : 재귀로 비교해가면서 넣기 
    - [MergeSortedList 코드 (merge_sorted_list.py)](https://github.com/hsu-201458085/Algorithm/blob/main/code/merge_sorted_list.py)
    사실 내가 해결하지 못했던 방법이 왜 안되는지 궁금해서 한시간 넘게 디버깅해봤는데도 일단 답이 안나왔다.
-   - 시도해볼 것 : 
-      1. 이해하기 어려웠던 재귀 방식 풀이 7일 후 다시 해보기 ( O ) -> 다시 못풀었지만 저번에는 이해 안되었던게 이해된 것 같다. 7일 후 다시 풀기 
+   - TodoList(progressing) : 
+      1. retry with recursion on 2021.02.12 ( O ) -> Couldn't solve again, but understood the Logic -> try to next week again
       2. 내가 원래 했던 방법을 다시 시도해보고 성공한다면 성능 분석/비교해보기 (  )
-      3. 마지막으로 재귀를 이용해 다시 풀어보기 (  ) 
+      3. final Solve with recursion 21.02.19  (  ) 
       
  ### [연결리스트] Leetcode : Reverse Linked List (Easy)
 - Reverse a singly linked list.
