@@ -18,7 +18,7 @@ class Solution(object):
             l1, l2 = l2, l1 #swap l1 and l2
         
         # l1.next = recursion(l1.next, l2), if l1 is not None 
-        # In recursion function, while and if are same 
+        # In recursion function, 'while' and 'if' are same 
         if l1:
             l1.next = self.mergeTwoLists(l1.next, l2)
         
