@@ -92,10 +92,13 @@
    - 해결방법 : 재귀로 비교해가면서 넣기 
    - [MergeSortedList 코드 (merge_sorted_list.py)](https://github.com/hsu-201458085/Algorithm/blob/main/code/merge_sorted_list.py)
    사실 내가 해결하지 못했던 방법이 왜 안되는지 궁금해서 한시간 넘게 디버깅해봤는데도 일단 답이 안나왔다.
-   - TodoList(progressing) : 
+   - TodoList(finished) : 
       1. retry with recursion on 2021.02.12 ( O ) -> Couldn't solve again, but understood the Logic -> try to next week again
-      2. 내가 원래 했던 방법을 다시 시도해보고 성공한다면 성능 분석/비교해보기 (  )
-      3. final Solve with recursion 21.02.19  (  ) 
+      2. 내가 원래 했던 방법을 다시 시도해보고 성공한다면 성능 분석/비교해보기 ( O )
+           -> nearly, but recursion technique is immature
+      4. final Solve with recursion 21.02.19  ( O )
+         -> finally solved!! on 2021.02.20
+         -> Since the center is l1, first check 'if l1 is None', then 'if l2 is None', or compare with l1.val and l2.val.
       
  ### [연결리스트] Leetcode : Reverse Linked List (Easy)
 - Reverse a singly linked list.
@@ -112,14 +115,14 @@
     
   ## Stack Queue
   ### [스택] 프로그래머스 : 다리를 지나는 트럭 (Level 2) 
-  - stack 관련 문제가 은근 구현이 쉽지 않다. python에서는 list와 collections.deque로 거의 모든 동작이 가능하므로 구현에 초점을 더 둬야한다. 
-  - 1시간 가량 고민하면서 문제를 풀었지만 결국 해결하지 못했다. 어려운 알고리즘이 아니라 말그대로 구현실패 
-  - 다른사람이 했던 코드는 확인했고 로직자체는 크게 다르지 않았다. 구현력이 문제인데 7일 후 다시 풀어볼 것 (  ) 2021-02-27
+  - Too difficult Problem about stack. In Python, Most function already implemented so, Problem Implement should be perfected 
+  - trying about it over an hour, but couldn't solve it.
+  - TodoList(Processing) :: retry on 2021-02-27(  )
 
 
   ### [스택] 프로그래머스 : 주식가격 (Level 2) 
-  - 이것도 실패, 알고리즘을 조금 다르게 생각할 필요가 있었던 문제이다. 
-  - 7일 후 꼭 다시도전해보자 ( )2021-02-27
+  - fail, Must Think different for time complexity (O(N))
+  - TodoList(Processing) :: retry on 2021-02-27(  )
 
 
   ## Sorting
