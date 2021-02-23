@@ -15,6 +15,7 @@
  - [Linked List](#linked-list)
  - [Stack/Queue](#stack-queue)
  - [Sorting](#sorting)
+ - [DFS(Depth-First-Search)](#DFS)
  - [BFS(Breath-First-Search)](#BFS)
 
  
@@ -169,6 +170,21 @@
               index가 인용수보다 높아지는 시점이 H-Index이다. 
  -[H-Index코드(H_index.py)](https://github.com/hsu-201458085/Algorithm/blob/main/code/H_index.py)
   
+  ## DFS
+  ### [깊이우선탐색] Leetcode : 200. Number of Islands (Level 2)
+  - An island is surrounded by water and is formed by connecting adjacent lands horizontally or vertically.
+    You may assume all four edges of the grid are all surrounded by water.
+  - DFS의 기본같은 문제 시뮬레이션 + DFS로 재귀를 이용해 쉽게 풀 수 있다. 
+  - 내부함수를 이용할 수 도 있지만 기본적으로 Leetcode는 class형태로 제출하므로 self.인자를 이용해 구현했다.
+  - 첫번째 시도는 시간초과 때문에 실패했는데 로직은 다음과 같다. 
+    1. 처음부터 끝까지 순회하며 (이미갔던 곳이면 continue, 해당 위치값이 '1'이면 dfs(위치)를 실행한다.
+    2. dfs는 맵 밖을 벗어나면 return 방문했다는 위치를 추가하며 동,서,남,북으로 dfs 재귀실행
+    실패한 이유 : 기존 dfs의 방문개념에 충실해 if 위치 in discovered 같은걸 추가했는데 이게 문제였던 것 같다.
+    [실패한 섬세기 코드(fail_count_islands.py)](https://github.com/hsu-201458085/Algorithm/blob/main/code/fail_count_islands.py)
+  - 최적화 : discovered 삭제 
+    이미 input으로 grid가 주어졌기 때문에 따로 discovered리스트를 만들지 않고 방문한 곳은 해당 위치를 '0'으로 바꾼 뒤 
+    "1"일때만 dfs를 시도하는 식으로 최적화했더니 성공하였다.
+    [섬세기 코드(count_islands.py)](https://github.com/hsu-201458085/Algorithm/blob/main/code/count_islands.py)
   
   ## BFS
   ### [너비우선탐색] 동빈나님 유튜브 예제 : 미로탈출 최소 거리?
