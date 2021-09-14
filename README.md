@@ -33,6 +33,13 @@
     - "aaaaaaaaaaa...aaaaa" 처럼 100a 이렇게 나오면 길이가 4임 -> 길이의 자릿수를 고려할 것
 
 ## Hash table
+### [해시] 프로그래머스 : 오픈채팅방 (Level 2)
+  - 2019 KAKAO 블라인드 채용 문제 
+  - 해시 사용해서 유저ID에 대응되는 닉네임을 저장 
+  - for문을 다시 돌며 문구를 저장, 시간복잡도는 약 O(N) 추정?
+  - [오픈채팅방 코드 (openchat.py)](https://github.com/Jjackson-dev/Algorithm/blob/main/code/openchat.py)
+  - [문제 링크 (프로그래머스 오픈채팅방)](https://programmers.co.kr/learn/courses/30/lessons/42888) 
+
 ### [해시] 프로그래머스 : 위장 (Level 2) 
   - ('옷이름','카테고리')의 문자열 n개를 받아서 카테고리가 겹치지 않는 모든 경우의 수를 구하는 문제 
   - 첫번째 시도 : 모든 조합을 구하는 Power_set을 구한 뒤 카테고리가 겹치면 지우는 방식 --> 제한시간 초과 
