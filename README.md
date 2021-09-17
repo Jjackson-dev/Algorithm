@@ -9,6 +9,7 @@
 [알고리즘종류](#알고리즘-종류)
 
 ## Context
+ - [Implement](#implement)
  - [String](#string)
  - [Hash table](#hash-table)
  - [Array](#array)
@@ -21,6 +22,19 @@
  
  
 ---
+## Implement
+### [구현] 프로그래머스 : 키패드누르기 (Level 2) 
+  - KAKAO 인턴 채용문제 
+  - 특별한 알고리즘은 보이지 않고 구현을 물어보는 문제같다 
+  - 최적화를 생각한다면 목표숫자와 두 손가락의 거리를 어떻게 계산할 것인가? 하는 문제
+   - value의 거리와 x와 y의 차이가 몇인가이므로 이렇게 표현하면 간단하다. 
+   ```python
+   def calc_dist(value, start):
+    return abs(value[0]-start[0]) + abs(value[1]-start[1])
+   ```
+  - [키패드누르기 코드 (push_keypad.py)](https://github.com/Jjackson-dev/Algorithm/blob/main/code/push_keypad.py)
+  - [문제 링크 (키패드 누르기)](https://programmers.co.kr/learn/courses/30/lessons/67256)
+  
 ## String
 ### [문자열] 프로그래머스 : 문자열 압축 (Level 2)
   - KAKAO 2020 블라인드 채용문제 
