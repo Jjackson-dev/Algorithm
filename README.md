@@ -167,6 +167,18 @@ w=2, h=3인 직사각형에서 w와 h를 하나씩 추가해가면서 선을 그
     
     
   ## Stack Queue
+  ### [스택] 프로그래머스 : 쇠막대기 (Level 2) 
+  - 쌓여있는 쇠막대기를 레이저로 자르면 몇개까지 나오는지 맞추는 문제
+  - 문제해결관점에서 보면 list_n이라는 스택에 "("가 올때 0을 넣어둔다. 그리고 다음 입력이 "("가 오면 레이저가 아니기 때문에 0으로 넣었던 값을 1로 바꿔주고 0을 하나 더 append한다.
+  - 그러다가 스택에 0이 있는데 ")"가 들어오면 레이저라는 뜻이므로 0을 스택에서 pop하고 이전 스택에 쌓인 값들을 전부 1씩 더해준다. (컷팅되었기 때문) 앞이 1인데 ")"이 들어오면 레이저가아니라 스틱이 끝났다는 뜻이므로 마지막값을 pop해주면서 total에 더해준다. 마지막 스틱이 끝나면 stack은 비게되고 total에 모든 값이 계산되어 들어가게 되는 구조
+  - 구현하기 위해 list_n = [x+1 for x in list_n] 이런식으로 해결했는데 모든 리스트 값에 1씩 더해주는 방법이 생각이 안나서 이런 코드를 썼다.
+  ```python
+  #list_n = [x+1 for x in list_n]
+  answer += sum(list_n)
+  ```
+  한번씩 다 접근해서 1씩 더하지말고 그냥 그때의 list_n 전체값을 total에 더하기
+  - [쇠막대기코드(iron_stick.py)](https://github.com/Jjackson-dev/Algorithm/blob/main/code/iron_stick.py)
+  
   ### [스택] 프로그래머스 : 다리를 지나는 트럭 (Level 2) 
   - Too difficult Problem about stack. In Python, Most function already implemented so, Problem Implement should be perfected 
   - trying about it over an hour, but couldn't solve it.
